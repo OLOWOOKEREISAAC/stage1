@@ -8,8 +8,8 @@ const ProfileSection = () => {
         <>
             <img src={profilePic} alt="profile pic" id="profile__img"></img>
            
-            <p id="twitter">twitter username</p>
-            <p id="slack">isa_c </p>
+            <p id="twitter">OLOWOOKEREISAAC</p>
+            <p id="slack">_isaac_ </p>
 
         </>
     );
