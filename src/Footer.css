@@ -21,3 +21,15 @@
     color: #667085;
     font-size: larger;
 }
+
+@media screen and (max-width:500px){
+    .footer{
+        display: block;
+        text-align: left;
+        justify-content: start; 
+    }
+    figure{
+        margin-left: 0;
+        width: fit-content;
+    }
+}

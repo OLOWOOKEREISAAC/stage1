@@ -16,7 +16,7 @@ const ProfileSection = () => {
            
 
            
-            <p id="twitter">OLOWOOKEREISAAC</p>
+            <h2 id="twitter">OLOWOOKEREISAAC</h2>
             <p id="slack">_isaac_ </p>
 
         </>
