@@ -7,7 +7,7 @@ function Footer (){
             <h2> Zuri <span id='zurisDot'></span> Internship </h2>
             <p > HNG Internship 9 Frontend Task</p>
             <figure>
-                <img src={I4G} id='i4g' />
+                <img src={I4G} alt='I4G Logo' id='i4g' />
             </figure>
             
          

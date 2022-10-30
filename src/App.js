@@ -12,8 +12,8 @@ function App() {
    <React.Fragment>
     <ProfileSection/>
     <LinksSection/>
-    <img src={slackIcon} className= 'icons' />
-    <img src={gitIcon}  className= 'icons'/>
+    <img src={slackIcon} alt='slackIcon' className= 'icons' />
+    <img src={gitIcon} alt='gitIcon' className= 'icons'/>
     
     <Footer/>
 

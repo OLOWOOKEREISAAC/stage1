@@ -10,8 +10,8 @@ const ProfileSection = () => {
         <>
             <div className='profileContainer'>
                 <img src={profilePic} alt="profile pic" id="profile__img"></img>
-                <img src={sharebtn} alt="" id="sharebtn"/>
-                <img src={morebtn} alt="" id="morebtn"></img>
+                <img src={sharebtn} alt="sharebtn" id="sharebtn"/>
+                <img src={morebtn} alt="morebtn" id="morebtn"></img>
             </div>
            
 
