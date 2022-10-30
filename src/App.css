@@ -1,0 +1,11 @@
+body{
+  text-align: center;
+  max-width: 80%;
+  margin: 2% auto;
+}
+.icons{ padding: 10px;}
+
+@media screen and (max-width:500px) {
+  body{ max-width: 95%; }
+  
+}
