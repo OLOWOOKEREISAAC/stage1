@@ -24,7 +24,7 @@ const ContactForm = () => {
                 
                 <div>
                     <label for='message'>Message</label><br/>
-                    <textarea rows='10' cols='30' name='message' id='message' placeholder="Send me a message and I'll reply you as soon as possible..."/>
+                    <textarea rows='10' cols='30' name='message' id='message' required placeholder="Send me a message and I'll reply you as soon as possible..."/>
                 </div>
                 
                 <input type="radio" id='radioBtn' name='radioBtn' value='#'/>
