@@ -1,0 +1,50 @@
+
+
+.contactFormContainer{
+    box-sizing: border-box;
+    text-align: left;
+}
+
+.contactForm div:nth-child(1),.contactForm div:nth-child(2){
+    display: inline-block;
+    width: 46%;
+    
+}
+
+.contactForm div{
+    margin: 2%;
+}
+.contactForm input, textarea, #btn__submit{
+    border: 1px solid gray;
+    width: 100%;
+    padding:10px;
+    border-radius: 5px;
+    margin-top: 10px;
+
+}
+
+/* #first_name, #last_name{
+    width: 10%;
+} */
+
+#btn__submit{
+    background-color:#1570EF;
+    padding: 15px;
+    border: none;
+    margin: 2%;
+    color:white;
+   
+}
+#radioBtn{
+    width: fit-content;
+    margin: 0 2%;
+}
+
+@media screen and (max-width: 800px){
+    .contactForm div:nth-child(1),.contactForm div:nth-child(2){
+        display: block;
+        width: 95%;
+        
+    }
+
+}

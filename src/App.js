@@ -5,6 +5,7 @@ import ProfileSection from './profileSection';
 import gitIcon from './assets/gitIcon.png';
 import slackIcon from './assets/slack.png';
 import Footer from './Footer';
+import ContactForm from './Contact';
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
     <LinksSection/>
     <img src={slackIcon} alt='slackIcon' className= 'icons' />
     <img src={gitIcon} alt='gitIcon' className= 'icons'/>
+    <ContactForm/>
     
     <Footer/>
 
